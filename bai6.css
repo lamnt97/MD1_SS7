@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+.title{
+    margin-bottom: 20px;
+}
+label{
+    font-size: 15px;
+}
+input{
+    
+    /* display:  block; */
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 8px;
+}
+.sdt{
+    /* width: 100%; */
+}
+#btn-continue{
+    color: white;
+    background-color: rgb(34, 34, 183);
+    width: 100%;
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+}
+button{
+    display: block;
+}
+
+
+
+.d-flex{
+    display: flex;
+}
+.line{
+    width: 162px;
+}
+hr {
+    margin-top: 30px;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(27, 27, 27, .1);
+}
+.reminder-or {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-weight: 600;
+    min-width: 35px;
+}
+#btn-mail{
+    background-color: white;
+    color: black;
+    width: 400px;
+    padding: 8px;
+    border: 1px solid rgb(192, 190, 190);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+#footer{
+    text-align: center;
+}
+body{
+    border: 1px solid rgb(207, 206, 206);
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+}
+#footer label{
+    cursor: pointer;
+    color: blue;
+}
+.container input:hover{
+    border: 1px solid blue;
+}
+.container{
+    width: 400px;
+    overflow: hidden;
+}
